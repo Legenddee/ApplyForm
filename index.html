@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Apply</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./formStyle.css">
+
+    <script type="text/JavaScript"></script>
+</head>
+
+<body>
+  <main>
+    <div class="container" id="main--Wrapper">
+        <div class="wrapper">
+            <div id="submitMessage" style="display: none;">
+                <div class="alert alert-success" role="alert">
+                    <strong>Thank You For Filling Out Your Information!</strong>
+                </div>
+            </div>
+           <form action="" id="myForm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" id="headingSection">
+                        <h1>Apply</h1>
+                        <p>Fill in your details correctly to enroll in our online courses</p>
+                    </div><hr>
+                    <label id="fullName" class="label">Full name<span>*</span></label>
+                    <div class="col-6" id="FirstNameSection">
+                        <div class="mb-3">
+                          <input type="text"class="form-control" name="" id="" placeholder="" required>
+                          <label for="" class="form-label" >First Name</label>
+                        </div>
+                    </div>
+                    <div class="col-6" id="LastNameSection">
+                        <div class="mb-3">
+                            <input type="text"class="form-control" name="" id="" placeholder="" required>
+                            <label for="" class="form-label">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2" id="emailSection">
+                        <div class="mb-3">
+                            <label for="" class="form-label label">Email <span>*</span></label>
+                            <input type="email"class="form-control" name="" id="" placeholder="" required>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-2" id="phoneNumber">
+                        <div class="mb-3">
+                            <label for="" class="form-label label">Phone Number<span>*</span></label>
+                            <input type="tel"class="form-control" name="" id="" placeholder="" required>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5" id="courses">
+                        <p>Select Course - (20k per course)<span>*</span></p>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="course" id="python">
+                          <label class="form-check-label" for="python"> Python Programming</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="course" id="JavaScript">
+                          <label class="form-check-label" for="JavaScript"> JavaScript</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="course" id="Microsoft">
+                            <label class="form-check-label" for="Microsoft"> Microsoft Digital Literacy</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="course" id="WordPress">
+                            <label class="form-check-label" for="WordPress"> Website Development - WordPress</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="course" id="HTML5">
+                            <label class="form-check-label" for="HTML5"> Website Development - HTML5 & CSS3</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="course" id="CyberSecurity">
+                            <label class="form-check-label" for="CyberSecurity"> CyberSecurity</label>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-3" id="uploadFile">
+                        <p>Upload Payment Receipt<span>*</span></p>
+                        <div class="mb-3" id="legenddee">
+                          <label for="" class="form-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="80" fill="#282727" class="bi bi-file-earmark-arrow-up-fill" viewBox="0 0 16 16">
+                                <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM6.354 9.854a.5.5 0 0 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 8.707V12.5a.5.5 0 0 1-1 0V8.707L6.354 9.854z"/>
+                            </svg>
+                            </label>
+                          <input type="file" class="form-control" name="" id="" placeholder="" required>
+                        </div>
+                    </div><hr class="mb-3">
+                    <input type="submit" class="btn mb-3" value="submit" id="btn-submit">
+                </div>
+            </div>
+           </form>
+        </div>
+    </div>
+  </main>
+  <footer>
+    <p>Copyrigth &copy; 2023 I.Y.I_Skills_Developer All Rights Reserved</p>
+  </footer>
+  <script src="FormJs.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
